@@ -1,0 +1,232 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .real {
+        width: 80%;    
+    }
+    .features {
+        gap: 3rem;
+    }
+
+}
+/* big tablet to 1024px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1023px) {
+    .real {
+        width: 90%;
+    }
+    .features {
+        gap: 1rem;
+        margin: 0 2rem;
+    }
+    .form {
+        margin-left: 5%;
+        width: 400px;
+    }
+input[type='text'],
+input[type='email'],
+input[type='numeric'] {
+  width: 70%;
+}
+#text {
+    font-size: 15px;
+}
+.arcade {
+    text-decoration: none;
+    border: 0.5mm solid hsl(229, 24%, 87%);
+    width: 30%;
+    border-radius: 3mm; 
+    padding: 50px 2px 80px 5px;
+}
+.spaced {
+  margin-left: -8%;
+    margin-top: 5%;
+    padding: 0 2.2rem;
+}
+.imga {
+    display: flex;
+    justify-content: center;
+    margin-top: -45%;
+}
+.pro {  
+    font-size: 12px;
+    color: hsl(228, 100%, 84%);
+}
+
+.plan {
+    
+   width: 92%;
+  
+}
+#mo {
+    margin-left: 95px;
+}
+.space {  
+    padding: 0 2rem;
+    margin-top: 10.5%;
+}
+.m,
+.confirm {  
+    width: 21%;  
+    font-size: 13px; 
+    padding: 10px 0px 10px 10px;
+}
+.month {
+    width: 90%;  
+    padding: 8px 80px 8px 15px;  
+}
+.nigg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 2rem;
+    margin-top: 5%;
+}
+.form4 {
+    margin-top: 1%;
+    padding: 5px 10px 20px 15px;
+    background-color:  hsl(229, 24%, 87%);
+    width: 95%;
+}
+.for {
+    margin-top: 2%;
+    width: 98%;  
+    font-size: 15px; 
+    color: hsl(206, 94%, 87%);   
+}
+}
+/* big tablet to 768px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 767px) {
+    .real {
+        width: 98%;
+        margin-right: 80%;
+    }
+    .features {
+        gap: 0rem;
+        margin: 0 2rem;
+    }
+    .form {
+        margin-left: 5%;
+        width: 300px;
+    }
+input[type='text'],
+input[type='email'],
+input[type='numeric'] {
+  width: 60%;
+}
+#text {
+    font-size: 15px;
+}
+.next {
+    font-size: 12px; 
+    width: 90%;
+    padding: 10px 10px 10px 15px;   
+}
+.m,
+.confirm {  
+    width: 30%;  
+    font-size: 13px; 
+    padding: 10px 0px 10px 10px;
+}
+.plan {   
+    width: 90%;  
+ }
+ #mo {
+    margin-left: 30px;
+}
+.arcade {
+    text-decoration: none;
+    border: 0.5mm solid hsl(229, 24%, 87%);
+    width: 32%;
+    border-radius: 3mm; 
+    padding: 50px 2px 70px 5px;
+}
+.spaced {
+    margin-left: -2%;
+      margin-top: 5%;
+      padding: 0 0.1rem;
+  }
+  .month {
+    width: 98%;  
+    padding: 8px 80px 8px 15px;  
+    font-size: 13px;
+}
+#money {
+    margin-right: -10%;
+    font-style: normal;
+}
+.thanks {
+    
+    margin-left: 90px; 
+    margin-top: 12%;
+}
+.you {
+    margin-left: 70px; 
+    
+    font-size: 20px; 
+    
+}
+}
+
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) {
+    .real {
+        display: flex;
+        border: 1mm solid hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 2mm; 
+        padding: 30px 80px 10px 10px;
+        width: 90%;
+        margin-top: 4%;
+        justify-content: center;
+        padding: 0 2rem;
+        margin-left: 5%;
+    }
+.asset {
+    display: none;
+}
+.assests{
+    display: inline-block;
+  position: absolute;
+  margin-left: 5%;
+}
+.lists {
+    margin-top: -5%;
+    margin-left: 3%;
+    position: absolute;
+    list-style: none;
+}
+.ted {
+    display: none;
+}
+.nav__item {
+    width: 12%;
+    display: inline-block;
+    margin-top: 20%;
+    justify-content: center;
+    margin-left: 10%;
+}
+.hey {
+    display: inline-block;
+    width: 100%;
+}
+.small {
+    margin-left: 10%;
+}
+.lis {
+    width: 12%;
+    border-radius: 30mm; 
+    padding: 5px 10px 5px 15px;
+}
+.form {
+    margin-top: 60%;
+    padding-left: 2px;
+    width: 320px;
+}
+.free {
+    font-size: 10px;
+}
+input[type='text'],
+input[type='email'],
+input[type='numeric'] {
+  width: 80%;
+}
+}

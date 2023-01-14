@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./queries.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Multi-step form</title>
+</head>
+<body>
+    <img src="./assets/images/bg-sidebar-mobile.svg" class="assests"/>
+   <ul class="hey  lists">
+    <a href="#" class="small  lis  nav__item  operation--tab_1  active"  data-tab="1" id="0">1</a>
+    <a href="#" class="small  lis   nav__item  operation--tab_2"  data-tab="2"  id="1" >2</a>
+    <a href="#" class="small  lis   nav__item  operation--tab_3"  data-tab="3" id="2">3</a>
+    <a href="#" class="small  lis    nav__item  operation--tab_4"   data-tab="4" id="3">4</a>
+   </ul>
+    <section class="row  real  features">
+        <div>
+            <p >
+                <ol class="list ted">
+                   <a href="#" class="lis  nav__item  operation--tab_1  active"  data-tab="1" id="0">1</a>    <h3 class="move big"> Step 1</h3><em class="move small">Your info</em>
+                    <a href="#"  class="lis  nav__item  operation--tab_2" data-tab="2"  id="1">2</a>    <h3 class="move big"> Step 2</h3><em class="move small"> Select plan</em>
+                    <a href="#"  class="lis   nav__item  operation--tab_3" data-tab="3" id="2">3</a>     <h3 class="move big"> Step 3</h3><em class="move small"> Add-ons</em>
+                    <a href="#"  class="lis   nav__item  operation--tab_4" data-tab="4" id="3">4</a>    <h3 class="move big"> Step 4</h3><em class="move small"> Summary</em>
+                </ol>
+                <img src="./assets/images/bg-sidebar-desktop.svg" class="asset"/>
+                </p>
+               
+        </div>
+
+        <!-- FORM -->
+
+        <form  class="form   operation--cotent--1" id="0">
+            <h1 id="personal">Personal info</h1>
+            <strong id="text">Please provide your name, email address, and phone number.</strong>
+
+            
+           
+             <div class="space"> <p class="labels">Name</p>      <p class="fill  ohh hid">This field is required</p></div>  
+             <input type="text" name="Name" id="first" placeholder=" e.g. Stephen King " required >
+
+        
+            
+             <div class="space">   <p class="labels">email</p>    <p class="fill hid">This field is required</p></div>  
+              <input type="email" name="Name" id="second" placeholder="e.g. stephenking@lorem.com" required >
+           
+          
+         <div class="space">  <p class="labels">Phone number</p>     <p class="fill hid">This field is required</p></div>  
+            <input type="numeric" name="Name" id="third" placeholder="   e.g. +1 234 567 890 " required >
+            
+        
+
+         <p class="step"><a href="#" class="next   first"  id="1">Next Step</a></p>   
+            </form>
+
+        <!-- FORM 2-->
+            <form  class="form hid    operation--cotent--2"  id="1">
+                <h1 id="personal"> Select your plan</h1>
+                <strong id="text"> You have the option of monthly or yearly billing.</strong>
+                <p class="spaced"> 
+                    <a href="#" class="arcade  actives"> <img src="./assets/images/icon-arcade.svg" class="imga"/> <br/> <em class="pro"> <strong id="str">Arcade</strong> <br/>
+                        $<em class="num">9</em>/mo <br/> <em class="free"></em></em>   </a>
+                     <a href="#" class="arcade"> <img src="./assets/images/icon-advanced.svg" class="imga"/> <br/><em class="pro">  <strong id="str">Advanced</strong> <br/>
+                        $<em class="num">12</em>/mo <br/><em class="free"></em></em>  </em></a> 
+                     <a href="#" class="arcade"> <img src="./assets/images/icon-pro.svg" class="imga"/> <br/><em class="pro"> <strong id="str">Pro</strong> <br/>
+                        $<em class="num">15</em>/mo <br/><em class="free"></em></em>  </em> </a> 
+                     </p>   
+                    
+                  
+                        <div class="plan">
+                 <em id="mo">Monthly</em> 
+                  <p class="ebi">
+                            <span class="btn">
+                                 <button class="btn1"></button>
+                                    <button class="btn2  hid"></button>
+                                </span>
+                            </p> 
+                          <em id="ye"> Yearly</em> 
+                        </div>
+                     <p class="steps  space"> <a href="#" class="back" id="0"> Go Back</a>   <a href="#" class="next m" id="2">Next Step</a></p>   
+
+                </form>
+
+
+
+
+                 <!-- FORM 3-->
+
+                 <form  class="form  hid    operation--cotent--3"  id="2">
+                    <h1 id="personal"> Pick add-ons</h1>
+                    <strong id="text"> Add-ons help enhance your gaming experience.</strong>
+        
+        
+                    <p class="form3">   
+                      
+                    <a href="#" class="month  space"> <input type="checkbox" /> <span> <strong>Online services</strong><br>  
+                        Access to multiplayer games</span>
+                        <em id="money">  +$<em class="num">1</em>/mo</em></em> </a>   
+                    
+                
+                   
+                    <a href="#" class="month  space"> <input type="checkbox" /> <span> <strong>Larger storage</strong> <br> 
+                        Extra 1TB of cloud save</span>
+                        <em id="money">  +$<em class="num">2</em>/mo</em></em></a>
+                       
+                  
+                   
+                    <a href="#" class="month  space"> <input type="checkbox" /> <span> <strong>Customizable Profile</strong> <br> 
+                        Custom theme on your profile</span>
+                        <em id="money">  +$<em class="num">2</em>/mo</em></em>  </a>   
+                       
+                    </p>
+        
+                    <p class="steps  space"> <a href="#" class="back" id="1"> Go Back</a>   <a href="#" class="next m" id="3">Next Step</a></p>   
+                    </form>
+
+                     <!-- FORM 4   THE LAST FORM-->
+
+                     <form  class="form hid   operation--cotent--4" id="3">
+                        <h1 id="personal"> Finishing up</h1>
+                        <strong id="text"> Double-check everything looks OK before confirming.</strong>
+            
+            
+                        <div class="form4">   
+                        <p class="space nigg"> <span id="frm4arc"> <br> <a href="#" class="change   next" id="1">Change</a></span> <strong id="ego1"></strong></p>
+                        <p class="line"></p>
+                        <p class="space nigg"> <span id="arc"></span> <strong id="ego2"></strong></p>
+                        <p class="space nigg"> <span id="acr"></span> <strong id="ego3"></strong></p>
+                        </div>
+
+                        <p class="space  ake"> <span id="arcwhe">Acrade(monthly)</span> </p>
+                        <p class="steps  space"> <a href="#" class="back" id="2"> Go Back</a>   <a href="#" class="confirm  next" id="4" > Confirm</a></p>   
+                        </form>
+
+                         <!-- FORM 4   THE THANK YOU-->
+                         <form  class="form hid" id="4">
+                            <p ><img src="./assets/images/icon-thank-you.svg" class="thanks"/></p>
+                        <h1 class="you">Thank you!</h1>    
+
+ <p class="for"></p> 
+                            </form>
+    
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
